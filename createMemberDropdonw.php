@@ -11,7 +11,7 @@ while($row = mysqli_fetch_assoc($result)) {
     $id=$row['id'];
     $fn=$row['firstname'];
     $sn=$row['surname'];
-    echo "<OPTION value > $id>$fn $sn</OPTION>";
+    echo "<OPTION value = '$id'>$fn $sn</OPTION>";
 }
 echo "</SELECT>";
 
